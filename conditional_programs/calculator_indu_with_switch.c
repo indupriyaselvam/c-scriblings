@@ -18,11 +18,11 @@ int main()
 	switch (O) {
 		case '+':
 		printf("The addition value is %d\n", a+b);
-		break;										/* break is used to exit from switch and used to exit from loop */
+		break;		/* break is used to exit from switch and used to exit from loop */
 		case '-':
 		printf("The sub value is %d\n", a-b);
 		break;
-	    case '*':
+		case '*':
 		printf("The multiply value is %d\n", a*b);
 		break;
 		case '/':
